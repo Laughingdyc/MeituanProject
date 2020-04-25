@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'MeiTuan';
+  src:  url('fonts/MeiTuan.eot?l3nwao');
+  src:  url('fonts/MeiTuan.eot?l3nwao#iefix') format('embedded-opentype'),
+    url('fonts/MeiTuan.ttf?l3nwao') format('truetype'),
+    url('fonts/MeiTuan.woff?l3nwao') format('woff'),
+    url('fonts/MeiTuan.svg?l3nwao#MeiTuan') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MeiTuan' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shopping_cart:before {
+  content: "\e93a";
+}
+.icon-dislike:before {
+  content: "\e9d7";
+}
+.icon-like:before {
+  content: "\e9d9";
+}
+.icon-favorite:before {
+  content: "\e9da";
+}
+.icon-add:before {
+  content: "\ea0a";
+}
+.icon-remove:before {
+  content: "\ea0b";
+}
+.icon-close:before {
+  content: "\ea0f";
+}
+.icon-check:before {
+  content: "\ea10";
+}
+.icon-arrow_right:before {
+  content: "\ea42";
+}
+.icon-arrow_left:before {
+  content: "\ea44";
+}
